@@ -1,6 +1,6 @@
 # Amazon clone
 
-Full stack web app using react for frontend and firebase for hosting, API and database.
+Full stack web app using react for frontend and firebase functions and storage as backend. Hosted on firebase.
 
 # Live demo
 
