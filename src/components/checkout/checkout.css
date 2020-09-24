@@ -1,0 +1,33 @@
+.checkout {
+  display: flex;
+  padding: 1.25rem;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+.checkout__title {
+  padding: 0.8px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout__welcome {
+  margin-left: 0.8rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout {
+    overflow-x: hidden;
+  }
+  .checkout__ad {
+    width: 75%;
+  }
+  .checkout__right {
+    transform: translate(-8rem, -2rem);
+  }
+}
